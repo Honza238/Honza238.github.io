@@ -66,3 +66,13 @@ a:active {
     background-color: black;
 }
 
+.imageContainer{
+    margin: auto;
+    margin-top: 10vh;
+    width: 80vW;
+    text-align: center;
+}
+.favPhoto{
+    width: 80vw;
+    height: auto;
+}
