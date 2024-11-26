@@ -1,0 +1,53 @@
+.fragment-mono-regular {
+    font-family: "Fragment Mono", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.fragment-mono-regular-italic {
+    font-family: "Fragment Mono", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.nadpis{
+    margin: auto;
+    margin-top: 20vh;
+    width: fit-content;
+    text-align: center;
+}
+
+
+.indexlinks{
+    margin: auto;
+    margin-top: 10vh;
+    width: fit-content;
+    text-align: center;
+
+    font-family: "Fragment Mono", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: gray;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+}
+  
+a:active {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+}
