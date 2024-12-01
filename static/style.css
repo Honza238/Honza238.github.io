@@ -79,14 +79,27 @@ a:active {
     }
 } 
 
+
+
+
+
 .aboutImage{
+    width: 35vw;
+    height: auto;
 
+    border-radius: 50%;
+    overflow: hidden;
 }
-
+.aboutImageDiv{
+    margin: auto;
+    margin-top: 10vh;
+    width: fit-content;
+    height: auto;
+}
 .aboutDiv{
     margin: auto;
     margin-top: 10vh;
-    width: 80vw;
+    width: 70vw;
     text-align: justify;
     line-height: 1.4;
 
@@ -96,6 +109,9 @@ a:active {
 }
 @media only screen and (min-width: 992px) {
     .aboutDiv{
-        width: 60vw;
+        width: 40vw;
+    }
+    .aboutImage{
+        width: 20vw;
     }
 }
