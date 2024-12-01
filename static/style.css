@@ -1,13 +1,7 @@
-.fragment-mono-regular {
+body{
     font-family: "Fragment Mono", serif;
     font-weight: 400;
     font-style: normal;
-}
-  
-.fragment-mono-regular-italic {
-    font-family: "Fragment Mono", serif;
-    font-weight: 400;
-    font-style: italic;
 }
 
 .nadpis{
@@ -84,3 +78,24 @@ a:active {
         height: auto;
     }
 } 
+
+.aboutImage{
+
+}
+
+.aboutDiv{
+    margin: auto;
+    margin-top: 10vh;
+    width: 80vw;
+    text-align: justify;
+    line-height: 1.4;
+
+    font-family: "Fragment Mono", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+@media only screen and (min-width: 992px) {
+    .aboutDiv{
+        width: 60vw;
+    }
+}
