@@ -1,9 +1,11 @@
 #!/bin/bash
 
 # Set the source directory containing the images
+echo Folder with images:
 read SOURCE_DIR
 
 # Set the output directory for metadata files
+echo Metadata output folder:
 read OUTPUT_DIR
 
 # Ensure the output directory exists
