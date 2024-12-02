@@ -5,9 +5,7 @@
 # General
 .DS_Store
 .AppleDouble
-.LSOverride
-
-
+.LSOverride	
 
 # Thumbnails
 ._*
@@ -33,3 +31,4 @@ Temporary Items
 *.icloud
 
 # End of https://www.toptal.com/developers/gitignore/api/macos
+ffmpeg
