@@ -25,4 +25,9 @@ for image in "$SOURCE_DIR"/*.jpg; do
 
     # Notify the user
     echo "Extracted metadata for $image to $metadata_file"
+
+    ./ffmpeg -i $SOURCE_DIR/$base_name.jpg -vf "scale='if(gt(iw,ih),2000,-1):if(gt(ih,iw),2000,-1)'" -c:v libwebp -compression_level 6 $OUTPUT_DIR/${base_name}.webp
+
+    echo converted to webp
+
 done
