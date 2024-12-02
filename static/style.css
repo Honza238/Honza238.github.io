@@ -75,13 +75,13 @@ a:active {
 }
 
 .favPhoto{
-    width: 80vw;
-    height: auto;
+    width: auto;
+    height: 50vw;
 }
 @media only screen and (min-width: 992px) {
     .favPhoto{
-        width: 60vw;
-        height: auto;
+        width: auto;
+        height: 50vw;
     }
 } 
 
