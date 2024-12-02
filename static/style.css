@@ -70,18 +70,18 @@ a:active {
 .imageContainer{
     margin: auto;
     margin-top: 10vh;
-    width: 80vW;
+    width: fit-content;
     text-align: center;
 }
 
 .favPhoto{
     width: auto;
-    height: 50vw;
+    height: 60vw;
 }
 @media only screen and (min-width: 992px) {
     .favPhoto{
         width: auto;
-        height: 50vw;
+        height: 40vw;
     }
 } 
 
