@@ -66,6 +66,10 @@ a:active {
     background-color: black;
 }
 
+a:link.linksSocials{
+    text-decoration: underline;
+}
+
 
 .imageContainer{
     margin: auto;
