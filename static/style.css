@@ -1,18 +1,19 @@
 body{
     font-family: "Fragment Mono", serif;
     font-weight: 400;
-    font-style: normal;
+    font-style:normal;
 }
 
 .nadpis{
     margin: auto;
-    margin-top: 10vh;
+    margin-top: 5vh;
     width: fit-content;
     text-align: center;
+    margin-bottom: 5vh;
 }
 .indexlinks{
     margin: auto;
-    margin-top: 10vh;
+    margin-top: 5vh;
     width: fit-content;
     text-align: center;
 
@@ -33,7 +34,7 @@ body{
 
 .myFooter{
     margin: auto;
-    margin-top: 35vh;
+    margin-top: 10vh;
     width: fit-content;
     text-align: center;
     color: rgb(36, 36, 36);
@@ -124,4 +125,40 @@ a:link.linksSocials{
     .aboutImage{
         width: 20vw;
     }
+}
+
+
+
+
+.horizontal-gallery{
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    
+}
+
+.gallery-photo{
+    flex: 0 0 calc(50% - 3vw); /* 70% width of viewport and account for gap */
+    scroll-snap-align: center;
+    text-align: center;
+    position: relative;
+
+    margin: auto;
+    margin-top: 0vh;
+}
+.gallery-photo img {
+    object-fit: cover;
+    max-width: auto;
+    max-height: 30vw;
+}
+.scroll-arrows{
+    margin: auto;
+    margin-top: 5vh;
+    width: fit-content;
+    text-align: center;
+    display: inline;
+}
+.scroll-arrows span{
+    cursor: pointer;
 }
