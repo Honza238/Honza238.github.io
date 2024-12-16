@@ -159,6 +159,10 @@ a:link.linksSocials{
     width: fit-content;
     text-align: center;
     font-size: x-large;
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
 }
 .scroll-arrows span{
     cursor: pointer;
