@@ -16,8 +16,6 @@
     <link rel="stylesheet" href="static/style.css">
 </head>
     
-
-</head>
 <body>
     <div class="nadpis">
         <h1>Jan Šedivý</h1>
@@ -27,6 +25,10 @@
     <div class="scroll-arrows">
         <span id="leftArrow">&lt</span> <span id="rightArrow">&gt</span>
     </div>
+
+    
+
+
 
     <div class="horizontal-gallery" id="gallery">
         <div class="gallery-photo"><img src="favsSites/favPhotos/motocams2024/JanSedivy-20241110-M41_4223.webp" alt="Photo 1"></div>
@@ -58,35 +60,28 @@
     </div>
     
     
-    
-
-    <div class="myFooter">
-        <p>Made by me <br> Using pure CSS, HTML and hosted on <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a></p>
-    </div>
-
     <script>
-        // Get the gallery element and buttons
         const gallery = document.getElementById('gallery');
         const rightArrow = document.getElementById('rightArrow');
         const leftArrow = document.getElementById('leftArrow');
-    
-        // Define scroll amount (pixels)
+
         const scrollAmount = 300;
-    
+
         // Scroll right
         rightArrow.addEventListener('click', () => {
             gallery.scrollBy({ left: scrollAmount, behavior: 'smooth' });
         });
-    
+
         // Scroll left
         leftArrow.addEventListener('click', () => {
             gallery.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
         });
     </script>
-    
-    
-    
-    
 
+    
+    
+    <div class="myFooter">
+        <p>Made by me <br> Using pure CSS, HTML and hosted on <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a></p>
+    </div>
 </body>
 </html>
