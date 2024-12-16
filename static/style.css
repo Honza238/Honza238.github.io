@@ -152,6 +152,16 @@ a:link.linksSocials{
     max-width: auto;
     max-height: 30vw;
 }
+@media only screen and (max-width: 650px) {
+    .gallery-photo img{
+        max-height: 60vw;
+    }
+    .gallery-photo{
+        flex: 0 0 calc(100% - 7vW);
+    }
+}
+
+
 .scroll-arrows{
     margin: auto;
     margin-top: 5vh;
