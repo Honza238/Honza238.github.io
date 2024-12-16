@@ -155,6 +155,7 @@ a:link.linksSocials{
 .scroll-arrows{
     margin: auto;
     margin-top: 5vh;
+    margin-bottom: 0.8vh;
     width: fit-content;
     text-align: center;
     font-size: x-large;
