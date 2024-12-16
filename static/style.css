@@ -157,7 +157,7 @@ a:link.linksSocials{
     margin-top: 5vh;
     width: fit-content;
     text-align: center;
-    display: inline;
+    font-size: x-large;
 }
 .scroll-arrows span{
     cursor: pointer;
