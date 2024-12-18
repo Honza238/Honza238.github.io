@@ -5,6 +5,10 @@ body{
     font-style: normal;
 }
 
+h1{
+    font-weight: 500;
+}
+
 .nadpis{
     margin: auto;
     margin-top: 5vh;
