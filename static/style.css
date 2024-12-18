@@ -1,7 +1,8 @@
 body{
-    font-family: "Fragment Mono", serif;
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
     font-weight: 400;
-    font-style:normal;
+    font-style: normal;
 }
 
 .nadpis{
@@ -17,7 +18,8 @@ body{
     width: fit-content;
     text-align: center;
 
-    font-family: "Fragment Mono", serif;
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
     font-weight: 400;
     font-style: italic;
 }
@@ -113,10 +115,6 @@ a:link.linksSocials{
     width: 70vw;
     text-align: left;
     line-height: 1.4;
-
-    font-family: "Fragment Mono", serif;
-    font-weight: 400;
-    font-style: normal;
 }
 @media only screen and (min-width: 992px) {
     .aboutDiv{
