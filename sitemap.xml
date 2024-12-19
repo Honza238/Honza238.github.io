@@ -4,67 +4,61 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-            
+
 <url>
   <loc>https://jansedivyphoto.eu/</loc>
   <lastmod>2024-12-18T08:58:51+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://jansedivyphoto.eu/about</loc>
+  <loc>https://jansedivyphoto.eu/about.html</loc>
   <lastmod>2024-12-18T08:58:51+00:00</lastmod>
   <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jansedivyphoto.eu/favs</loc>
-  <lastmod>2024-12-18T08:58:51+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jansedivyphoto.eu/tools</loc>
-  <lastmod>2024-12-18T08:58:51+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jansedivyphoto.eu/contact</loc>
-  <lastmod>2024-12-18T08:58:51+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jansedivyphoto.eu/favsSites/motocams2024</loc>
-  <lastmod>2024-12-18T08:58:51+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://jansedivyphoto.eu/favsSites/zenda2024</loc>
-  <lastmod>2024-12-18T08:58:51+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://jansedivyphoto.eu/favsSites/bufiBechovice</loc>
-  <lastmod>2024-12-18T08:58:51+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://jansedivyphoto.eu/favsSites/odm2024</loc>
-  <lastmod>2024-12-18T08:58:51+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://jansedivyphoto.eu/favsSites/benatky2024</loc>
-  <lastmod>2024-12-18T08:58:51+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://jansedivyphoto.eu/favsSites/gymfest</loc>
-  <lastmod>2024-12-18T08:58:51+00:00</lastmod>
-  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://jansedivyphoto.eu/favs.html</loc>
   <lastmod>2024-12-18T08:58:51+00:00</lastmod>
-  <priority>0.51</priority>
+  <priority>0.80</priority>
 </url>
-
+<url>
+  <loc>https://jansedivyphoto.eu/tools.html</loc>
+  <lastmod>2024-12-18T08:58:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jansedivyphoto.eu/contact.html</loc>
+  <lastmod>2024-12-18T08:58:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jansedivyphoto.eu/favsSites/motocams2024.html</loc>
+  <lastmod>2024-12-18T08:58:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jansedivyphoto.eu/favsSites/zenda2024.html</loc>
+  <lastmod>2024-12-18T08:58:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jansedivyphoto.eu/favsSites/bufiBechovice.html</loc>
+  <lastmod>2024-12-18T08:58:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jansedivyphoto.eu/favsSites/odm2024.html</loc>
+  <lastmod>2024-12-18T08:58:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jansedivyphoto.eu/favsSites/benatky2024.html</loc>
+  <lastmod>2024-12-18T08:58:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jansedivyphoto.eu/favsSites/gymfest.html</loc>
+  <lastmod>2024-12-18T08:58:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
 
 </urlset>
