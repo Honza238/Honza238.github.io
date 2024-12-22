@@ -3,6 +3,7 @@ body{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    background-color: #fdf7f7;
 }
 
 h1{
@@ -62,13 +63,13 @@ a:visited {
 }
   
 a:hover {
-    color: white;
+    color: #fdf7f7;
     text-decoration: none;
     background-color: black;
 }
   
 a:active {
-    color: white;
+    color: #fdf7f7;
     text-decoration: none;
     background-color: black;
 }
@@ -178,4 +179,54 @@ a:link.linksSocials{
 }
 .scroll-arrows span{
     cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.portfolioImagePreviewsContainer{
+    margin: auto;
+    margin-top: 5vh;
+    width: fit-content;
+    text-align: center;
+    background-color: black;
+    position: relative;
+}
+
+
+.portfolioImagePreviewsContainer h2{
+    color: #fdf7f7;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4vw;
+    line-height: 1.1;
+}
+
+.portfolioImagePreviewsContainer h2:hover{
+    background-color: black;
+}
+.portfolioImagePreviewsContainer h2:active{
+    background-color: black;
+}
+
+.portfolioPreviewImage{
+    width: auto;
+    height: 60vw;
+    opacity: 0.35;
+}
+
+@media only screen and (min-width: 992px) {
+    .portfolioPreviewImage{
+        width: auto;
+        height: 30vw;
+    }
+    .portfolioImagePreviewsContainer h2{
+        font-size: 2vw;
+    }
 }

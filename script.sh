@@ -16,11 +16,12 @@ for image in "$SOURCE_DIR"/*.jpg; do
     base_name=$(basename "$image" .jpg)
 
     
-    metadata_file="$OUTPUT_DIR/${base_name}_metadata.txt"
+    metadata_file="$OUTPUT_DIR/${base_name}.txt"
+    #echo "$SOURCE_DIR/$base_name.jpg" >> $metadata_file
 
     #Extract metadata using exiftool
-    exiftool -s3 -ExposureTime -FNumber -ISO -FocalLength -LensModel -Model -FocalLengthIn35mmFormat "$image" > "$metadata_file"
-    echo "$SOURCE_DIR/$base_name.jpg" >> $metadata_file
+    exiftool -s3 -ExposureTime -FNumber -ISO -FocalLength -Model -FocalLengthIn35mmFormat -LensModel "$image" > "$metadata_file"
+    
 
     echo "Extracted metadata for $image to $metadata_file"
 
