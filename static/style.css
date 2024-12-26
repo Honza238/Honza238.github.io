@@ -23,6 +23,16 @@ img{
     width: fit-content;
     text-align: center;
     margin-bottom: 5vh;
+    cursor: pointer;
+}
+
+.nadpisNoClick{
+    margin: auto;
+    margin-top: 5vh;
+    width: fit-content;
+    text-align: center;
+    margin-bottom: 5vh;
+    pointer-events: none;
 }
 .indexlinks{
     margin: auto;
@@ -36,9 +46,9 @@ img{
     font-style: italic;
 }
 @media only screen and (max-width: 991px) {
-    .nadpis{
+    /*.nadpis{
         width: 90vw;
-    }
+    }*/
     .indexlinks{
         width: 90vW;
     }
