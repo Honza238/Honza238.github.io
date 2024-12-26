@@ -23,7 +23,6 @@ img{
     width: fit-content;
     text-align: center;
     margin-bottom: 5vh;
-    cursor: pointer;
 }
 
 .nadpisNoClick{
@@ -32,7 +31,6 @@ img{
     width: fit-content;
     text-align: center;
     margin-bottom: 5vh;
-    pointer-events: none;
 }
 .indexlinks{
     margin: auto;
