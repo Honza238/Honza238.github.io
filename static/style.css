@@ -149,7 +149,7 @@ a:link.linksSocials{
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
-    
+    cursor: pointer;
 }
 
 .gallery-photo{
