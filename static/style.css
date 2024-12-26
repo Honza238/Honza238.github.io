@@ -24,14 +24,6 @@ img{
     text-align: center;
     margin-bottom: 5vh;
 }
-
-.nadpisNoClick{
-    margin: auto;
-    margin-top: 5vh;
-    width: fit-content;
-    text-align: center;
-    margin-bottom: 5vh;
-}
 .indexlinks{
     margin: auto;
     margin-top: 5vh;
@@ -45,9 +37,6 @@ img{
 }
 @media only screen and (max-width: 991px) {
     .nadpis{
-        width: 90vw;
-    }
-    .nadpisNoClick{
         width: 90vw;
     }
     .indexlinks{
