@@ -5,7 +5,7 @@ echo Folder with images:
 read SOURCE_DIR
 
 #Set the output dir
-echo Metadata output folder:
+echo Metadata and webp output folder:
 read OUTPUT_DIR
 
 mkdir -p "$OUTPUT_DIR"

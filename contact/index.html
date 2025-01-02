@@ -17,7 +17,7 @@
 </head>
 <body>
     
-    <div class="nadpis">
+    <div class="nadpis" id="nadpis">
         <h1>Jan Šedivý</h1>
         <h2>Sports Photography</h2>
     </div>
@@ -39,5 +39,13 @@
     <div class="indexlinks">
         <a href="../">Back</a>
     </div>
+
+    <script>
+        const nadpis = document.getElementById('nadpis');
+        
+        nadpis.addEventListener('click', () => {
+            window.location.href = "../"
+        });
+    </script>
 </body>
 </html>
