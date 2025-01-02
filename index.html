@@ -21,7 +21,7 @@
 </head>
     
 <body>
-    <div class="nadpis">
+    <div class="nadpis" id="nadpis">
         <h1>Jan Šedivý</h1>
         <h2>Sports Photography</h2>
     </div>
@@ -69,6 +69,7 @@
         const gallery = document.getElementById('gallery');
         const rightArrow = document.getElementById('rightArrow');
         const leftArrow = document.getElementById('leftArrow');
+        const nadpis = document.getElementById('nadpis');
         
         const scrollAmount = 300;
 
@@ -84,6 +85,10 @@
 
         gallery.addEventListener('click', () => {
             window.location.href = "/portfolio"
+        });
+
+        nadpis.addEventListener('click', () => {
+            window.location.href = "./"
         });
     </script>
 
