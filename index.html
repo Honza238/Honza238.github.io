@@ -35,16 +35,16 @@
 
 
     <div class="horizontal-gallery" id="gallery">
-        <div class="gallery-photo"><img src="./portfolio/zenda2024/images/1.webp" alt="Ženda Race 2024" title="Ženda Race 2024"></div>
-        <div class="gallery-photo"><img src="./portfolio/motocams2024/images/JanSedivy-20241110-M41_4223.webp" alt="CAMS Enduro sprint 2024 - Brno" title="CAMS Enduro sprint 2024 - Brno"></div>
-        <div class="gallery-photo"><img src="./portfolio/odm2024/images/DSC_3886.webp" alt="ODM 2024" title="ODM 2024"></div>
-        <div class="gallery-photo"><img src="./portfolio/motocams2024/images/JanSedivy-20241110-M41_4576.webp" alt="CAMS Enduro sprint 2024 - Brno" title="CAMS Enduro sprint 2024 - Brno"></div>
-        <div class="gallery-photo"><img src="./portfolio/odm2024/images/DSC_3704.webp" alt="ODM 2024" title="ODM 2024"></div>
-        <div class="gallery-photo"><img src="./portfolio/odm2024/images/DSC_3800.webp" alt="ODM 2024" title="ODM 2024"></div>
-        <div class="gallery-photo"><img src="./portfolio/benatky2024/images/JanSedivy_1.webp" alt="European Cup Benátky 2024" title="European Cup Benátky 2024"></div>
-        <div class="gallery-photo"><img src="./portfolio/motocams2024/images/JanSedivy-20241110-M41_3942.webp" alt="CAMS Enduro sprint 2024 - Brno" title="CAMS Enduro sprint 2024 - Brno"></div>
-        <div class="gallery-photo"><img src="./portfolio/zenda2024/images/2.webp" alt="Ženda Race 2024" title="Ženda Race 2024"></div>
-        <div class="gallery-photo"><img src="./portfolio/motocams2024/images/JanSedivy-20241110-M41_3700.webp" alt="CAMS Enduro sprint 2024 - Brno" title="CAMS Enduro sprint 2024 - Brno"></div>
+        <div id="img1" class="gallery-photo"><img src="./portfolio/zenda2024/images/1.webp" alt="Ženda Race 2024" title="Ženda Race 2024"></div>
+        <div id="img2" class="gallery-photo"><img src="./portfolio/motocams2024/images/JanSedivy-20241110-M41_4223.webp" alt="CAMS Enduro sprint 2024 - Brno" title="CAMS Enduro sprint 2024 - Brno"></div>
+        <div id="img3" class="gallery-photo"><img src="./portfolio/odm2024/images/DSC_3886.webp" alt="ODM 2024" title="ODM 2024"></div>
+        <div id="img4" class="gallery-photo"><img src="./portfolio/motocams2024/images/JanSedivy-20241110-M41_4576.webp" alt="CAMS Enduro sprint 2024 - Brno" title="CAMS Enduro sprint 2024 - Brno"></div>
+        <div id="img5" class="gallery-photo"><img src="./portfolio/odm2024/images/DSC_3704.webp" alt="ODM 2024" title="ODM 2024"></div>
+        <div id="img6" class="gallery-photo"><img src="./portfolio/odm2024/images/DSC_3800.webp" alt="ODM 2024" title="ODM 2024"></div>
+        <div id="img7" class="gallery-photo"><img src="./portfolio/benatky2024/images/JanSedivy_1.webp" alt="European Cup Benátky 2024" title="European Cup Benátky 2024"></div>
+        <div id="img8" class="gallery-photo"><img src="./portfolio/motocams2024/images/JanSedivy-20241110-M41_3942.webp" alt="CAMS Enduro sprint 2024 - Brno" title="CAMS Enduro sprint 2024 - Brno"></div>
+        <div id="img9" class="gallery-photo"><img src="./portfolio/zenda2024/images/2.webp" alt="Ženda Race 2024" title="Ženda Race 2024"></div>
+        <div id="img10" class="gallery-photo"><img src="./portfolio/motocams2024/images/JanSedivy-20241110-M41_3700.webp" alt="CAMS Enduro sprint 2024 - Brno" title="CAMS Enduro sprint 2024 - Brno"></div>
     </div>
 
     <div class="indexlinks">
@@ -66,10 +66,21 @@
     
     
     <script>
-        const gallery = document.getElementById('gallery');
+        //const gallery = document.getElementById('gallery');
         const rightArrow = document.getElementById('rightArrow');
         const leftArrow = document.getElementById('leftArrow');
         const nadpis = document.getElementById('nadpis');
+
+        const img1 = document.getElementById('img1');
+        const img2 = document.getElementById('img2');
+        const img3 = document.getElementById('img3');
+        const img4 = document.getElementById('img4');
+        const img5 = document.getElementById('img5');
+        const img6 = document.getElementById('img6');
+        const img7 = document.getElementById('img7');
+        const img8 = document.getElementById('img8');
+        const img9 = document.getElementById('img9');
+        const img10 = document.getElementById('img10');
         
         const scrollAmount = 300;
 
@@ -83,12 +94,45 @@
             gallery.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
         });
 
-        gallery.addEventListener('click', () => {
+        /*gallery.addEventListener('click', () => {
             window.location.href = "/portfolio"
-        });
+        });*/
 
         nadpis.addEventListener('click', () => {
             window.location.href = "./"
+        });
+
+        
+        /////////////////////////
+        img1.addEventListener('click', () => {
+            window.location.href = "./portfolio/zenda2024"
+        });
+        img2.addEventListener('click', () => {
+            window.location.href = "./portfolio/motocams2024"
+        });
+        img3.addEventListener('click', () => {
+            window.location.href = "./portfolio/odm2024"
+        });
+        img4.addEventListener('click', () => {
+            window.location.href = "./portfolio/motocams2024"
+        });
+        img5.addEventListener('click', () => {
+            window.location.href = "./portfolio/odm2024"
+        });
+        img6.addEventListener('click', () => {
+            window.location.href = "./portfolio/odm2024"
+        });
+        img7.addEventListener('click', () => {
+            window.location.href = "./portfolio/benatky2024"
+        });
+        img8.addEventListener('click', () => {
+            window.location.href = "./portfolio/motocams2024"
+        });
+        img9.addEventListener('click', () => {
+            window.location.href = "./portfolio/zenda2024"
+        });
+        img10.addEventListener('click', () => {
+            window.location.href = "./portfolio/motocams2024"
         });
     </script>
 
