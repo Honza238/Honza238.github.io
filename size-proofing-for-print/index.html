@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../static/reset.css">
+    <link rel="stylesheet" href="../static/normalize.css">
+    <link rel="stylesheet" href="../static/style.css">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jan Šedivý | Print Proofing</title>
+    <link rel="icon" type="image/png" href="../img_misc/icon.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    
+    <style>
+        #calibration-box {
+            width: 100px; /* Fixed size for calibration */
+            height: 20px;
+            background-color: #cdc6c6;
+        }
+        #image-container {
+            margin-top: 20px;
+            border: 1px solid #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        body{
+            margin-left: .5vw;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Image Size Proofing for Prints</h1>
+    
+    <!-- Upload Section -->
+    <label for="image-upload">Select an image:</label>
+    <input type="file" id="image-upload" accept="image/*"> <br>
+    <p>(Files do not leave your device)</p> <br><br>
+
+    <!-- Calibration Section -->
+    <h2>Screen Calibration</h2> <br>
+    <p>Measure the width of the box below with a real ruler and enter the measurement in centimeters.</p> <br>
+    <div id="calibration-box"></div> <br><br>
+    <label for="measured-width">Measured Width (cm):</label>
+    <input type="number" id="measured-width" step="0.1">
+    <button id="calibrate-button">Calibrate</button> <br> <br>
+
+    <!-- Size Input Section -->
+    <h2>Set Image Size</h2> <br>
+    <label for="image-width">Width (cm):</label>
+    <input type="number" id="image-width" step="0.1">
+    <label for="image-height">Height (cm):</label>
+    <input type="number" id="image-height" step="0.1">
+    <button id="resize-button">Resize Image</button>
+
+    <!-- Image Display Section -->
+    <div id="image-container">
+        <div id="image-display"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
