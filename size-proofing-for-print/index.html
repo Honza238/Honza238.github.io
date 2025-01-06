@@ -38,6 +38,12 @@
 
 </head>
 <body>
+    <div class="nadpis" id="nadpis">
+        <h1>Jan Šedivý</h1>
+        <h2>Sports Photography</h2>
+    </div>
+
+
     <h1>Image Size Proofing for Prints</h1>
     <p style="font-style: italic;">See how your prints will look like in 1:1 scale</p> <br> <br>
     
@@ -67,6 +73,18 @@
         <div id="image-display"></div>
     </div>
 
+    
+    
+    
+    
     <script src="script.js"></script>
+
+    <script>
+        const nadpis = document.getElementById('nadpis');
+        
+        nadpis.addEventListener('click', () => {
+            window.location.href = "../"
+        });
+    </script>
 </body>
 </html>
