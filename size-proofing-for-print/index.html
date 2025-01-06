@@ -19,7 +19,9 @@
             width: 100px; /* Fixed size for calibration */
             height: 20px;
             background-color: #cdc6c6;
-            margin: auto;
+            
+            
+            /*margin: auto;*/
         }
         #image-container {
             margin-top: 20px;
@@ -30,32 +32,33 @@
         }
         body{
             margin-left: .5vw;
-            text-align: center;
+            text-align: left;
         }
     </style>
 
 </head>
 <body>
     <h1>Image Size Proofing for Prints</h1>
+    <p style="font-style: italic;">See how your prints will look like in 1:1 scale</p> <br> <br>
     
     <!-- Upload Section -->
-    <label for="image-upload">Select an image:</label>
-    <input type="file" id="image-upload" accept="image/*"> <br>
-    <p>(Files do not leave your device)</p> <br><br>
+    <label style="font-weight: bold;" for="image-upload">Select an image:</label>
+    <input type="file" id="image-upload" accept="image/*"> <br> <br>
+    <p>(Files do not leave your device and are not compresssed)</p> <br><br>
 
     <!-- Calibration Section -->
-    <h2>Screen Calibration</h2> <br>
-    <p>Measure the width of the box below with a real ruler and enter the measurement in centimeters.</p> <br>
+    <h2 style="text-decoration: underline;">Screen Calibration</h2> <br>
+    <p style="font-weight: bold;">Measure the width of the box below with a real ruler and enter the measurement in centimeters.</p> <br>
     <div id="calibration-box"></div> <br><br>
-    <label for="measured-width">Measured Width (cm):</label>
+    <label style="font-weight: bold;" for="measured-width">Measured Width (cm):</label>
     <input type="number" id="measured-width" step="0.1">
     <button id="calibrate-button">Calibrate</button> <br> <br>
 
     <!-- Size Input Section -->
-    <h2>Set Image Size</h2> <br>
-    <label for="image-width">Width (cm):</label>
+    <h2 style="text-decoration: underline;">Set Image Size</h2> <br>
+    <label style="font-weight: bold;" for="image-width">Width (cm):</label>
     <input type="number" id="image-width" step="0.1">
-    <label for="image-height">Height (cm):</label>
+    <label style="font-weight: bold;" for="image-height">Height (cm):</label>
     <input type="number" id="image-height" step="0.1">
     <button id="resize-button">Resize Image</button>
 
