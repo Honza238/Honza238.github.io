@@ -1,8 +1,8 @@
 body{
-    font-family: "Roboto Mono", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+    font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
     background-color: #fdf7f7;
 }
 
@@ -31,9 +31,10 @@ img{
     width: fit-content;
     text-align: center;
 
-    font-family: "Roboto Mono", serif;
+    font-family: "Inter", serif;
     font-optical-sizing: auto;
     font-weight: 400;
+    font-style: normal;
     font-style: italic;
 }
 @media only screen and (max-width: 991px) {
