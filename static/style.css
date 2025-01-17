@@ -1,8 +1,8 @@
 body{
     font-family: "Inter", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     background-color: #fdf7f7;
 }
 
@@ -242,3 +242,34 @@ a:link.linksSocials{
 }
 
 /* ======================================= */
+
+
+.formSubmit{
+    margin: auto;
+    margin-top: 5vh;
+    width: 35vw;
+    text-align: center;
+}
+.formSubmit textarea {
+    resize: none; /* Disable resizing */
+}
+
+.col{
+    margin: .5vw;
+}
+
+.text-message{
+    margin-bottom: 1vh;
+    width: inherit;
+}
+
+.formSubmit button{
+    width: 35vw;
+
+  font-weight: bold;
+  color: #fdf7f7;
+  background-color: #121416; /* Dark button background */
+  border: none;
+  cursor: pointer;
+}
+
