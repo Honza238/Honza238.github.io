@@ -18,13 +18,48 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="static/style.css">
+
+    <style>
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            justify-content: center;
+        }
+
+        .logo-container {
+            margin-right: 20px;
+            margin-top: 2.8vh;
+            cursor: pointer;
+        }
+
+        .logo {
+            width: auto;
+            height: 65px;
+            object-fit: cover;
+        }
+        .title{
+            cursor: pointer;
+        }
+    </style>
 </head>
     
 <body>
-    <div class="nadpis" id="nadpis">
+    
+    <header class="header" id="nadpis">
+        <div class="logo-container">
+          <img src="img_misc/icon.png" alt="Logo" class="logo">
+        </div>
+        <div class="title">
+          <h1>Jan Šedivý</h1>
+          <h2>Sports Photography</h2>
+        </div>
+    </header>
+    
+    <!-- <div class="nadpis" id="nadpis">
         <h1>Jan Šedivý</h1>
         <h2>Sports Photography</h2>
-    </div>
+    </div> -->
 
     <div class="scroll-arrows">
         <span id="leftArrow">&lt</span> <span id="rightArrow">&gt</span>
