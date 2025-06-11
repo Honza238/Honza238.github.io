@@ -123,12 +123,13 @@
 
         // Scroll right
         rightArrow.addEventListener('click', () => {
-            gallery.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+            gallery.scrollBy(scrollAmount,0);
+            
         });
 
         // Scroll left
         leftArrow.addEventListener('click', () => {
-            gallery.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+            gallery.scrollBy(-scrollAmount,0);
         });
 
         /*gallery.addEventListener('click', () => {
